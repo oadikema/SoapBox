@@ -28,14 +28,15 @@ public class FragmentBallots extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_ballots, container, false);
 
 
+        mRecyclerView = view.findViewById(R.id.ballots_recycler_view);
         mRecyclerView.setHasFixedSize(true);
 
         // use a linear layout manager
-        mLayoutManager = new LinearLayoutManager(this);
+        mLayoutManager = new LinearLayoutManager(getActivity());
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         // specify an adapter (see also next example)
-        mAdapter = new MyAdapter(myDataset);
+        mAdapter = new BallotsAdapter(getResources().getStringArray(R.array.ballot_names), view.getContext(), getActivity());
         mRecyclerView.setAdapter(mAdapter);
         return view;
     }
