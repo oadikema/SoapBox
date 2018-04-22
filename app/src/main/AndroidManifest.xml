@@ -26,7 +26,8 @@
         <activity
             android:name=".WallActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".ArtsAndHistory"></activity>
+        <activity android:name=".ArtsAndHistory" />
+        <activity android:name=".AmyActivity"></activity>
     </application>
 
 </manifest>
