@@ -20,7 +20,7 @@
         android:layout_width="75dp"
         android:layout_height="76dp"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/ic_add_contact"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
