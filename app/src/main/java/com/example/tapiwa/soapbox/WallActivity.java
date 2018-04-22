@@ -57,7 +57,7 @@ public class WallActivity extends AppCompatActivity {
         final android.app.Fragment fragment = new FragmentWall();
         android.app.FragmentManager manager = getFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
-        transaction.replace(R.id.content_frame, fragment);
+        transaction.replace(R.id.content_frame, fragment).commit();
 
     }
 
