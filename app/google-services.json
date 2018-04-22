@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66006260444",
+    "firebase_url": "https://soapbox-db1ec.firebaseio.com",
+    "project_id": "soapbox-db1ec",
+    "storage_bucket": "soapbox-db1ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66006260444:android:1fa989bd6694057a",
+        "android_client_info": {
+          "package_name": "com.example.tapiwa.soapbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66006260444-2gg55u6sbn5sggv1b6a228hrfsvgs0v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tapiwa.soapbox",
+            "certificate_hash": "1827d333342d27848a32276d6aa021a068cef869"
+          }
+        },
+        {
+          "client_id": "66006260444-42lso5vn61cl70m6mhrf1nehf6v6l1oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvqnjuYyWlQYss4_hcrijU2b5lATO5Zaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66006260444-42lso5vn61cl70m6mhrf1nehf6v6l1oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
